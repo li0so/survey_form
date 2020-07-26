@@ -17,13 +17,28 @@
 
         <form action="survey_form" method="post">
 
-            <label for="name">Name: </label>
-            <input id="name" type="text" placeholder="Enter your name"></input>
+            <label for="name">Name: 
+            <input id="name" type="text" placeholder="Enter your full name"></input>
+            </label>
             
+            <label for="email">Email: 
+            <input id="email" type="text" placeholder="Enter your email address"></input>
+            </label>
 
-            <label for="email">Email: </label> 
-            <input id="email" type="text" placeholder="Enter your email"></input>
-            
+            <label for="order_type">Ordered via: 
+            <select name="order_type" id="order_type">
+                <option value="website">Website</option>
+                <option value="mobile_app">Mobile App</option>
+            </select>
+            </label> 
+
+            <label for="recommendation">How likely are you to recommend Roesie Bakes to a friend? 
+            <select name="recommendation" id="recommendation">
+                <option value="not_likely">Not likely</option>
+                <option value="somewhat_likely">Somewhat likely</option>
+                <option value="very_likely">Very likely</option>
+            </select>
+            </label>
 
         </form>
 

@@ -8,5 +8,7 @@
     background-color: #ad0723;
 } */
 
-
-
+form {
+    display: flex;
+    flex-direction: column;
+}
