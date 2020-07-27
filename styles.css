@@ -4,9 +4,19 @@
     margin: 0;
 }
 
-/* body {
+body {
     background-color: #ad0723;
-} */
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.content_wrapper {
+    background-color: azure;
+    text-align: center;
+}
 
 form {
     display: flex;
